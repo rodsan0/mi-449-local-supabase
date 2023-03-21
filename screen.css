@@ -1,1 +1,38 @@
-/* Add screen styles below */
+* {
+    margin: 0;
+  }
+
+  .content {
+    position: absolute;
+    top: 50%; right: 50%;
+    transform: translate(50%, -50%);
+  }
+
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 300;
+  }
+
+  th {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.7em;
+    text-align: left;
+    padding-left: 10px;
+  }
+
+  td {
+    padding: 5px 10px;
+  }
+
+  tr {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+  }
+
+  table {
+    margin: 35px 0;
+    padding: 15px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+  }
