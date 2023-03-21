@@ -17,10 +17,12 @@ async function getBooks() {
     var title = row.insertCell(0);
     var author = row.insertCell(1);
     var isbn = row.insertCell(2);
+    var desc = row.insertCell(3);
 
     title.innerHTML = book.title;
     author.innerHTML = book.author;
     isbn.innerHTML = book.isbn;
+    desc.innerHTML = book.description;
   }
 }
 
